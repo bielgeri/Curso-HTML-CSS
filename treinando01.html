@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+        
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+
+        .especial {
+            background-color: rgb(255, 80, 49);
+        }
+        .especial::after {
+            content: '←';
+        }
+        
+        .especial::before {
+            content: '→';
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://twitter.com/bielgeri" target="_blank" class="especial">Meu Twitter</a></li>
+        <li><a href="https://www.youtube.com/channel/UCqaORY-U7Z624r0nW7fwIww" target="_blank">Youtube</a></li>
+        <li><a href="https://github.com/bielgeri" target="_blank">Repositório GitHub</a></li>
+    </ul>
+</body>
+</html>
