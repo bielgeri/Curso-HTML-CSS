@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
 
@@ -40,14 +41,10 @@ main > p {
     font-family: Sriracha;
 }
 
-section > p {
-    margin: 20px;
-    width: 500px;
-    color:white;
-    background-color: rgba(0, 0, 0, 0.459);
-    font-size: 3em;
-    padding: 50px;
+section  {
+    color: black;
     font-family: Sriracha;
+    font-size: 3em;
 }
 
  #img1 {
@@ -56,6 +53,14 @@ section > p {
      background-position: right center;
      background-size: cover;
      background-attachment: fixed;
+
+    margin: 20px;
+    width: 30em;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.459);
+    font-size: 3em;
+    padding: 50px;
+    font-family: Sriracha;
 }
 
 #img2 {
@@ -64,6 +69,14 @@ section > p {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
+    margin: 20px;
+    width: 30em;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.233);
+    font-size: 3em;
+    padding: 50px;
+    font-family: Sriracha;
 }
 
 footer {
