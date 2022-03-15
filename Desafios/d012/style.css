@@ -2,10 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+}
 header{
     display: block;
-    
-    padding: 50px;
+    padding-top: 50px;
+    font-variant: small-caps;
     margin: auto;
     background-color: black;
 }
@@ -20,17 +28,18 @@ h1 {
 header > p {
     color: white;
     text-align: center;
+    padding-bottom: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
 
-a {
+header a, footer a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-a:hover {
+header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
@@ -41,29 +50,40 @@ main > p {
     font-family: Sriracha;
 }
 
-section  {
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.normal  {
     color: black;
     font-family: Sriracha;
     font-size: 3em;
 }
 
- #img1 {
-     background-image: url(imagens/background001.jpg);
+ .img1 {
+     background-image: url(imagens/background001.jpg);background-position: right center;
      background-repeat: no-repeat;
-     background-position: right center;
      background-size: cover;
      background-attachment: fixed;
 
-    margin: 20px;
-    width: 30em;
-    color:white;
-    background-color: rgba(0, 0, 0, 0.459);
-    font-size: 3em;
-    padding: 50px;
-    font-family: Sriracha;
+     margin: 20px;
+     width: 30em;
+     color:white;
+     background-color: rgba(0, 0, 0, 0.233);
+     font-size: 3em;
+     padding: 50px;
+     font-family: Sriracha;
 }
 
-#img2 {
+.img1, .img2 > p {
+    width: 700px;
+    background-color: rgba(0, 0, 0, 0.418);
+}
+
+.img2 {
     background-image: url(imagens/background002.jpg);
     background-position: right center;
     background-repeat: no-repeat;
@@ -80,11 +100,10 @@ section  {
 }
 
 footer {
-    margin: auto;
+    
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    
-    padding: 5px;
+    padding: 10px;
     background-color: black;
     color: white;
 }
