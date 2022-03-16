@@ -69,8 +69,7 @@ section {
      background-size: cover;
      background-attachment: fixed;
 
-     margin: 20px;
-     width: 30em;
+     margin:0px;
      color:white;
      background-color: rgba(0, 0, 0, 0.233);
      font-size: 3em;
@@ -90,8 +89,7 @@ section {
     background-size: cover;
     background-attachment: fixed;
 
-    margin: 20px;
-    width: 30em;
+    margin: 0px;
     color:white;
     background-color: rgba(0, 0, 0, 0.233);
     font-size: 3em;
